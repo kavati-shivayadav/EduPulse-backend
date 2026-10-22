@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 
 @Component
-@Profile({"dev", "local"})
+@Profile({"dev", "local", "test", "prod"})
 @RequiredArgsConstructor
 public class DataSeeder implements ApplicationRunner {
 
